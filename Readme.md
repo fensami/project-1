@@ -54,3 +54,7 @@ nodemon ./pathname
 ```
 
 ## api testing tool 
+
+```
+https://www.postman.com/downloads/
+```
