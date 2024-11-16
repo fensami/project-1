@@ -58,3 +58,13 @@ nodemon ./pathname
 ```
 https://www.postman.com/downloads/
 ```
+
+## All Error Handler
+```
+app.all("*",(req : Request,res: Response)=> {
+  res.status(400).json({
+    success: false,
+    message: "Route is not found"
+  })
+})
+```
